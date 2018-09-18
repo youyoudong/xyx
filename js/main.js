@@ -49,6 +49,7 @@ wx.setPreferredFramesPerSecond(60)
 
 export default class Main {
   constructor () {
+    console.log('abc')
     if (GAME_DEBUG) window.main = this
 
     this.ctx = ctx
